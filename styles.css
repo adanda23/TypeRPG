@@ -25,3 +25,21 @@ body {
     font-size: 20px;
     outline: none;
 }
+
+.flex-container {
+    display: flex;
+}
+  
+.flex-container > div {
+    background-color: #354b38;
+    color:rgb(171, 243, 123);
+    font-family: "Pixelify Sans", sans-serif;
+    margin: 0 auto;
+    margin-top: 25px;
+    padding: 10px;
+    font-size: 30px;
+}
+
+.bordered {
+    outline: 2.5px solid rgb(171, 243, 123);
+}
