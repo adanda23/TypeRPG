@@ -5,6 +5,7 @@ h1 {
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
+    font-size: 60px;
 }
 
 body {
@@ -18,4 +19,9 @@ body {
     display: block; /* Ensure it's a block-level element */
     background-color: black;
     color:rgb(171, 243, 123);
+    font-family: "Pixelify Sans", sans-serif;
+    border-color: rgb(171, 243, 123);
+    border-width: 5px;
+    font-size: 20px;
+    outline: none;
 }
