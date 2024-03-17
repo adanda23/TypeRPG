@@ -10,4 +10,12 @@ h1 {
 body {
     background-color: rgb(0, 0, 0);
 }
-  
+
+#textBox {
+    width: 300px; /* Initial width */
+    height: 30px; /* Initial height */
+    margin: 0 auto; /* Center the text box horizontally */
+    display: block; /* Ensure it's a block-level element */
+    background-color: black;
+    color:rgb(171, 243, 123);
+}
