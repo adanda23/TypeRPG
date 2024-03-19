@@ -57,3 +57,12 @@ body {
     padding: 10px;
     font-size: 30px; 
 }
+
+#score {
+    width: 300px; /* Initial width */
+    height: 30px;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 10px;
+    font-size: 30px;
+}
