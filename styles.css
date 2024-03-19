@@ -17,7 +17,7 @@ body {
     height: 30px; /* Initial height */
     margin: 0 auto; /* Center the text box horizontally */
     display: block; /* Ensure it's a block-level element */
-    background-color: black;
+    background-color: #354b38;
     color:rgb(171, 243, 123);
     font-family: "Pixelify Sans", sans-serif;
     border-color: rgb(171, 243, 123);
@@ -30,16 +30,30 @@ body {
     display: flex;
 }
   
-.flex-container > div {
+.greenBox {
     background-color: #354b38;
     color:rgb(171, 243, 123);
     font-family: "Pixelify Sans", sans-serif;
     margin: 0 auto;
-    margin-top: 25px;
+    margin-top: 60px;
     padding: 10px;
     font-size: 30px;
 }
 
-.bordered {
+.greenBorder {
     outline: 2.5px solid rgb(171, 243, 123);
+}
+.blueBorder {
+    outline: 2.5px solid rgb(27, 79, 151);
+}
+
+
+.blueBox {
+    background-color: #167cc5;
+    color:rgb(27, 79, 151);
+    font-family: "Pixelify Sans", sans-serif;
+    margin: 0 auto;
+    margin-top: 60px;
+    padding: 10px;
+    font-size: 30px; 
 }
