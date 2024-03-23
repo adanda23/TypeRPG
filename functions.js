@@ -11,9 +11,9 @@ function scoreChanger() {
     score += 1;
 }
 
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
     var inputField = document.getElementById("textBox");
-    inputField.addEventListener("input", function() {
+    inputField.addEventListener("input", function () {
         var inputValue = inputField.value.trim().toLowerCase(); // Trim whitespace and convert to lowercase for case-insensitive comparison
 
         if (inputValue === word) {
@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 });
 
-function clear(){
+function clear() {
     var inputField = document.getElementById("textBox");
     inputField.value = "";
 }
